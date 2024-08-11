@@ -1,5 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
+	import NameInput from './NameInput.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
@@ -18,14 +18,14 @@
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+    世界で一番面白いゲーム
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		名前を入力してスタートする
 	</h2>
 
-	<Counter />
+	<NameInput />
 </section>
 
 <style>
